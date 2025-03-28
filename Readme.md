@@ -13,15 +13,6 @@ With Timelytics, businesses can identify potential bottlenecks and delays in the
 
 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-"brazilian-ecommerce.zip" will get downloaded in the current data folder.
-
-In the data folder execute the following commands to unzip:
-
-```
-sudo apt-get install unzip
-unzip brazilian-ecommerce.zip
-```
-
 
 Source - 
 The dataset consists of real-world delivery details sourced from a Brazilian E-commerce Company which was scrubbed and anonymized.
@@ -40,20 +31,14 @@ It consists of multiple tables which include relevant information about the cust
 ### Step 1: Clone this repository
 Run:
 ```bash
-git clone https://github.com/SaiJeevanPuchakayala/Timelytics
+git clone https://github.com/hetvi2206/timelytics
 ```
-
-### Step 2: Navigate to the Timelytics directory
-Run:
-```bash
-cd BinSpy
-```
-### Step 3: Install the python libraries
+### Step 2: Install the python libraries
 Run:
 ```bash
 pip install -r requirements.txt
 ```
-### Step 4: Run the streamlitApp.py file
+### Step 3: Run the streamlitApp.py file
 Run:
 ```bash
 streamlit run streamlitApp.py
